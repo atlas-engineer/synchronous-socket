@@ -13,3 +13,13 @@ implemented in C++. These are:
 
 Using these four functions you can synchronously communicate with a
 Unix domain socket.
+
+** Example usage:
+
+#+begin_src
+i = new SynchronousSocket.SynchronousSocket("/path/to/a/unix/domain/socket");
+i.connect();
+i.write("Message to client!");
+response = i.read();
+console.log(repsonse.toString());
+#+end_src
