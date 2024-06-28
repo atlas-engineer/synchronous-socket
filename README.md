@@ -21,5 +21,5 @@ i = new SynchronousSocket.SynchronousSocket("/path/to/a/unix/domain/socket");
 i.connect();
 i.write("Message to client!");
 response = i.read();
-console.log(repsonse.toString());
+console.log(response.toString());
 ```
