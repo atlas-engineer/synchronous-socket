@@ -2,8 +2,8 @@
   "name": "synchronous-socket",
   "description": "Synchronous socket interface for Unix domain sockets.",
   "version": "0.0.0",
-    "main": "index.js",
-    "license": "BSD-3-Clause",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build"
@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "bindings": "^1.3.0",
-    "nan": "^2.11.1"
+    "nan": "^2.22.0"
   }
 }
